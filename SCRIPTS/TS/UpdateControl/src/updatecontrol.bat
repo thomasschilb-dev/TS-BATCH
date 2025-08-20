@@ -6,7 +6,7 @@
 ::fBE1pAF6MU+EWHreyHYDFC9nASetGE6GMoZRysnPzMK7kW4vfdILS7Pv6Yi7MOQS/kDHepg5xHVWpNgeDydvaxDlaxcxyQ==
 ::fBE1pAF6MU+EWHreyHYDFC9nASetGE6GMoZRysnPzMK7kW4vfdILS7Pv6Yi7MOQS/kDHepg5xHVWpNgeDydvaxDlZwE9yQ==
 ::YAwzoRdxOk+EWAjk
-::fBw5plQjdCyDJG23yHYDZTh7aCG+CFj3JJQoy8DH3Mm1i30pZ94LS7Pu6pCvFMVeyWrKQaQC+kZJisgwOCgVXD6eS0EdikEi
+::fBw5plQjdCyDJG23yHYDZTh7aCG+CFj3JJQoy8DH3Mm1i30pZ94LS7PuyrCPNOUw5UvwZ5kh6mlIm/c4P1Z6UieOICYXhg4=
 ::YAwzuBVtJxjWCl3EqQJgSA==
 ::ZR4luwNxJguZRRnk
 ::Yhs/ulQjdF+5
@@ -31,7 +31,7 @@
 ::ZQ0/vhVqMQ3MEVWAtB9weVUEAlTMbAs=
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRnHwHF9Cjpgbyzi
-::Zh4grVQjdCyDJG23yHYDZTh7aCG+CFj3JJQoy8DH3Mm1i30pZ94LS7PuyrCPNOUw5UvwZ5kh6nhTlvc5L1VdZhfL
+::Zh4grVQjdCyDJG23yHYDZTh7aCG+CFj3JJQoy8DH3Mm1i30pZ94LS7PuyrCPNOUw5UvwZ5kh6nhTlvc5HB9ZaheIYQEgu2FO+GGdMqc=
 ::YB416Ek+ZW8=
 ::
 ::
@@ -50,11 +50,11 @@ SETLOCAL DisableDelayedExpansion
 %$Echo% "/ /_/ / _ \/ _  / _ `/ __/ -_) /__/ _ \/ _ \/ __/ __/ _ \/ /
 %$Echo% "\____/ .__/\_,_/\_,_/\__/\__/\___/\___/_//_/\__/_/  \___/_/
 %$Echo% "    /_/
-%$Echo% "                                                         V1.0
+%$Echo% "                                                         V1.0.2
 echo.
 ENDLOCAL
 :choice
-set /P c=What to do with the Firewall? (on/off) 
+set /P c=What to do with the Windows Update? (on/off) 
 if /I “%c%” EQU “on” goto :on
 if /I “%c%” EQU “off” goto :off
 goto :choice
