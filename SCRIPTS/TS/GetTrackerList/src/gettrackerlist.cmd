@@ -30,7 +30,7 @@
 ::ZQ0/vhVqMQ3MEVWAtB9welUEAlTMbAs=
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRnHwHF9Cjpgbyzi
-::Zh4grVQjdCyDJG23yHYDZTh7aCG+CFj3JJQoy8DH3Mm1i30pZ94LS7P836C6MuEQ4UD2WZ8+wkZYkcUwKy90MBeza28=
+::Zh4grVQjdCyDJG23yHYDZTh7aCG+CFj3JJQoy8DH3Mm1i30pZ94LS7P836C6MuEQ4UD2WZ8+wkZYkcUwKx5MSgCqbQQxu0JLpXDLMt+Z0w==
 ::YB416Ek+Zm8=
 ::
 ::
@@ -75,15 +75,15 @@ echo   + Directory Check: Ok
 echo.
 echo   + Crawling Trackerlists:
 echo.
-REM echo     Source: 1
-REM wget.exe -q http://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/custom-tracker.txt -O gettrackerlist\001.tmp
 echo     Source: 1
-wget.exe -q https://raw.githubusercontent.com/00xc0d3/BitTorrent-Tracker-List/main/trackers_all.txt -O gettrackerlist\002.tmp
+wget.exe -q http://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/custom-tracker.txt -O gettrackerlist\001.tmp
 echo     Source: 2
-wget.exe -q https://raw.githubusercontent.com/hezhijie0327/Trackerslist/main/trackerslist_combine.txt -O gettrackerlist\003.tmp
+wget.exe -q https://raw.githubusercontent.com/00xc0d3/BitTorrent-Tracker-List/main/trackers_all.txt -O gettrackerlist\002.tmp
 echo     Source: 3
-wget.exe -q https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt -O gettrackerlist\004.tmp
+wget.exe -q https://raw.githubusercontent.com/hezhijie0327/Trackerslist/main/trackerslist_combine.txt -O gettrackerlist\003.tmp
 echo     Source: 4
+wget.exe -q https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt -O gettrackerlist\004.tmp
+echo     Source: 5
 wget.exe -q https://raw.githubusercontent.com/XIU2/TrackersListCollection/refs/heads/master/all.txt -O gettrackerlist\005.tmp
 echo.
 cd gettrackerlist
@@ -123,6 +123,6 @@ echo Greetings fly out to following GitHub User's:
 echo.
 echo im-sm, 00xc0d3, hezhijie0327, ngosang and XIU2
 echo.
-echo thx! xD
+echo for their actual, hidden and raw Content. thx! xD
 echo.
 EXIT
